@@ -44,8 +44,8 @@ def check_is_golden(row):
 df['is_gold_candidate'] = df.apply(check_is_golden, axis=1)
 
 # 3. SIDEBAR FILTERS
-st.sidebar.header("Gold Standard Selection")
-gold_only = st.sidebar.toggle("Show Operational Matches Only", value=False)
+st.sidebar.header("Gold Candidates Selection")
+gold_only = st.sidebar.toggle("Show Golden Candidates Only", value=False)
 
 # If toggle is on, filter the dataframe
 if gold_only:
