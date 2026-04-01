@@ -54,7 +54,7 @@ else:
     df_display = df
 
 # 4. MAIN TABLE
-st.title("🚜 Operational QA Training Pipeline")
+st.title("Golden Candidates QA")
 selection = st.dataframe(
     df_display, 
     use_container_width=True, 
