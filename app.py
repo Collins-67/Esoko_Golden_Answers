@@ -30,8 +30,8 @@ selection = st.dataframe(
 )
 
 # Define keywords for your "Operational" template
-weather_words = ['rain', 'forecast', 'mm', 'humidity', 'tomorrow']
-action_words = ['spray', 'dry', 'ml', 'amount', 'days', 'dosage']
+weather_words = ['rain', 'forecast', 'mm', 'rainfall', 'drizzle', 'weather', 'sunny', 'cloudy', 'today', 'evening', 'norning', 'afternoon',  'tomorrow']
+action_words = ['spray', 'dry', 'ml', 'amount', 'days', 'dosage', '%', 'percent*, harvest', 'weed', 'apply', 'sow', 'dig', 'fertilize']
 
 def check_is_golden(row):
     # Combines question and answer to look for keywords
